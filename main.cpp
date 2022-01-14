@@ -25,6 +25,7 @@ int main(){
   
   while(0==0){
 
+    cout << "Here are the names of the students" << endl;
     cout << (cNode->getStudent())->getName() << endl;
     if(cNode->getNext()==NULL){
 
