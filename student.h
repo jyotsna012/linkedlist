@@ -4,7 +4,7 @@ class Student{
  public:
   Student(char*);
   char* getName();
-  ~Student()
+  ~Student();
  private:
   char* name;
 };
