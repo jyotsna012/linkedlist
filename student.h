@@ -1,3 +1,7 @@
+/*
+ *Student Class File.
+ */
+
 #pragma once
 
 class Student{
@@ -6,5 +10,5 @@ class Student{
   char* getName();
   ~Student();
  private:
-  char* name;
+  char* name; // name of student
 };
